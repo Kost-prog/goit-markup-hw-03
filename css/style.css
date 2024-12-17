@@ -116,6 +116,7 @@ button { cursor: pointer;}
 
 /* header */
   .hero {
+    padding: 120px;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -149,7 +150,8 @@ button { cursor: pointer;}
     background-color: #4d5ae5;}
 
   .hero-btn:hover,
-  .hero-btn:focus {background-color: #404bbf;}
+  .hero-btn:focus {
+   background-color: #404bbf;}
 
 /* section 2*/
   
@@ -202,6 +204,7 @@ button { cursor: pointer;}
 
 /* section 3*/
    .our-team {
+     padding: 120px 0;
      background-color: #F4F4FD;}
 
    .our-team-hd-li {    
@@ -252,6 +255,10 @@ button { cursor: pointer;}
      color: #434455;}
 
 /*section 4*/
+ .our-team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+ }
   .our-team-head {
     margin-bottom: 72px;
   }
@@ -288,12 +295,26 @@ button { cursor: pointer;}
       color: #434455;} 
 
   .footer {
+    padding: 100px 0;
     background-color: #2e2f42;
   }
   .footer-logo-style {
     color: #f4f4fd;
   }
+  .logo-futer{
+     display: inline-block;
+      padding: 24px 0;
+      margin-bottom: 16px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #4d5ae5;
+  }
   .footer-text {
+    max-width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
