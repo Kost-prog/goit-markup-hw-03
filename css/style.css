@@ -154,6 +154,10 @@ button { cursor: pointer;}
 /* section 2*/
   
   .our-ckill-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 120px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -175,10 +179,13 @@ button { cursor: pointer;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    width: calc((100% - 72px) / 4);
+  }
 
   .our-skill-hd-h {
     font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -197,10 +204,12 @@ button { cursor: pointer;}
    .our-team {
      background-color: #F4F4FD;}
 
-   .our-team-hd-li {
-     background-color: #FFFFFF;}
+   .our-team-hd-li {    
+    background-color: #FFFFFF;}
 
    .our-team-head {
+     margin-bottom: 72px;
+     padding-top: 120px;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
@@ -208,8 +217,24 @@ button { cursor: pointer;}
      letter-spacing: 0.02em;
      text-align: center;
      color: #2e2f42;}
-  
+
+    .team-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-bottom: 120px;
+       }
+     
+      .our-team-hd-li {
+        calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+      }
+    .our-team-name {
+      padding: 32px 0;
+    }
+
     .our-team-hd-h {
+     margin-bottom: 8px;
      font-family: "Roboto", sans-serif;
      font-weight: 500;
      font-size: 20px;
@@ -227,8 +252,28 @@ button { cursor: pointer;}
      color: #434455;}
 
 /*section 4*/
-        
+  .our-team-head {
+    margin-bottom: 72px;
+  }
+  .our-team-ul {
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 24px;
+     row-gap: 48px;
+          padding-bottom: 120px;
+     }
+
+  .our-team-list {
+    width: calc((100% - 48px) / 3);
+  }
+  .u-t-t {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+  }
   .pfl-head {
+    margin-bottom: 8px;
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
