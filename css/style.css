@@ -9,7 +9,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-.visually-hidden{
+.visually-hidden {
   position: absolute;
     width: 1px;
     height: 1px;
@@ -269,6 +269,13 @@ button { cursor: pointer;}
  }
   .our-port-head {
     margin-bottom: 72px;
+    font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      text-transform: capitalize;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #2e2f42;
   }
   .our-port-ul {
      display: flex;
