@@ -9,7 +9,18 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.visually-hidden{
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 ul,
 ol {
   list-style-type: none;
@@ -46,6 +57,7 @@ button { cursor: pointer;}
 .nav-page {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .nav-list {
   display: flex;
@@ -72,7 +84,7 @@ button { cursor: pointer;}
     color: #2e2f42;}
 
 .logo {
-    padding: 24px 0;
+    /*padding: 24px 0;*/
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -84,7 +96,7 @@ button { cursor: pointer;}
 
 
 .nav-item {
-    padding: 24px 0;
+    /*padding: 24px 0;*/
     display: block;
     font-weight: 500;
     font-style: normal;
