@@ -57,7 +57,6 @@ button { cursor: pointer;}
 .nav-page {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .nav-list {
   display: flex;
@@ -106,6 +105,7 @@ button { cursor: pointer;}
     color: #2e2f42;}
 
 .nav-item-link {
+   padding: 24px 0;
     font-weight:500;
     font-style: normal;
     font-size: 16px;
